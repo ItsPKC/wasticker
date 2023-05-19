@@ -1,0 +1,176 @@
+name: wasticker
+description: |
+  Trending WhatsApp Sticker !
+
+  Get ready to spice up your chats with our hilarious and trending WhatsApp sticker collection!
+
+  Introducing "WA Sticker", the ultimate WhatsApp sticker app that brings laughter and fun to your conversations. With thousands of funny and trendy stickers at your fingertips, expressing yourself has never been more entertaining.
+
+  🎉 Explore a World of Stickers -
+  Discover a vast collection of stickers meticulously crafted to tickle your funny bone. From adorable characters and witty phrases to popular memes and viral trends, we have it all. With regular updates, there's always something new to explore and share with your friends.
+
+  💬 Seamless Integration with WhatsApp -
+  Adding stickers to your WhatsApp and Business WhatsApp chats has never been easier. Simply select your favorite sticker and send it with a tap. Express your emotions, share inside jokes, or make your friends burst into laughter – all with our diverse sticker collection.
+
+  🔍 Quick and Easy Search -
+  Find the perfect sticker for any situation with our intuitive search feature. Simply type keywords or browse through categories to quickly locate the sticker that perfectly captures your mood or message. Say goodbye to endless scrolling and enjoy hassle-free sticker selection.
+
+  🌟 Personalize Your Sticker Library -
+  Create your own custom sticker collection by saving your favorite WhatsApp Stickers to your personal library. Access them conveniently whenever you want and never miss an opportunity to share the perfect sticker.
+
+  📈 Stay Up-to-Date -
+  Stay ahead of the trends with our regularly updated sticker packs. We keep a finger on the pulse of what's funny and popular, ensuring that you always have the freshest and most relevant stickers to share.
+
+  Try "WA Sticker" now and unlock a world of laughter and creativity for your WhatsApp conversations. Join the sticker revolution and make your chats stand out with our funny and trending stickers. Let the fun begin!"
+
+  We hope you'll feel better and enjoy WhatsApp Sticker as much as we enjoyed developing it. Looking forward to your participation in making this platform more reliable.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 0.0.2+2
+
+environment:
+  sdk: ">=3.0.0-244.0.dev <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.8.0
+  cloud_firestore: ^4.4.5
+  firebase_storage: ^11.0.16
+  google_mobile_ads: ^2.3.0
+  permission_handler: ^10.2.0
+  whatsapp_stickers_plus: ^1.1.1
+  dio: ^5.0.3
+  path_provider: ^2.0.13
+  provider: ^6.0.5
+  cached_network_image: ^3.2.3
+  flutter_cache_manager: ^3.3.0
+  collection: ^1.15.0
+  share_plus: ^6.3.1
+  go_router: ^6.2.0
+  shared_preferences: ^2.0.20
+  restart_app: ^1.1.2
+  # disable_battery_optimization: ^1.1.0+1
+  package_info: ^2.0.2
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  connectivity: ^3.0.6
+  url_launcher: ^6.1.10
+  # in_app_review: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.2.19
+  flutter_launcher_icons: ^0.13.1
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/logo.png"
+    background_color: "#FFFFFF"
+    theme_color: "#FFFFFF"
+  windows:
+    generate: true
+    image_path: "assets/logo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logo.png"
+
+flutter_native_splash:
+  # flutter pub run flutter_native_splash:create
+
+  color: "#ffffff"
+  #background_image: "assets/background.png"
+  # The image parameter allows you to specify an image used in the splash screen.  It must be a
+  # png file.
+  image: assets/logo.png
+  branding: assets/icyindia.png
+  branding_mode: bottom
+  android: true
+  ios: false
+  web: false
+  android_gravity: center
+  fullscreen: true
+  android_12:
+    image: assets/logoSplash.png
+    branding: assets/icyindia12.png
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    # - assets/tray_Cuppy.png
+    # - assets/1.webp
+    # - assets/2.webp
+    # - assets/3.webp
+    # - assets/fileImage.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

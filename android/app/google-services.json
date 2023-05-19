@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "950345778694",
+    "project_id": "wa-assist",
+    "storage_bucket": "wa-assist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950345778694:android:3097d8e48555f0a6952587",
+        "android_client_info": {
+          "package_name": "com.icyindia.kingmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950345778694-4s4hunhfhjqhs58onr1mpjk25475bl3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlsmXmh32uSUG0O4NG80nWMpfUO4QlW0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950345778694-4s4hunhfhjqhs58onr1mpjk25475bl3l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "950345778694-cit0hni2svajqod5rqa9gptptl6qpr49.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.icyindia.kingmaker"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950345778694:android:63f8ca4989bc5b12952587",
+        "android_client_info": {
+          "package_name": "com.icyindia.waassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950345778694-4s4hunhfhjqhs58onr1mpjk25475bl3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlsmXmh32uSUG0O4NG80nWMpfUO4QlW0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950345778694-4s4hunhfhjqhs58onr1mpjk25475bl3l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "950345778694-cit0hni2svajqod5rqa9gptptl6qpr49.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.icyindia.kingmaker"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4788716700673911~7188994530"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950345778694:android:e0d94e75976fb9bb952587",
+        "android_client_info": {
+          "package_name": "com.icyindia.wasticker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950345778694-4s4hunhfhjqhs58onr1mpjk25475bl3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlsmXmh32uSUG0O4NG80nWMpfUO4QlW0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950345778694-4s4hunhfhjqhs58onr1mpjk25475bl3l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "950345778694-cit0hni2svajqod5rqa9gptptl6qpr49.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.icyindia.kingmaker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
